@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: auto 10rem auto 4rem;
+  align-items: center;
+}
+
+
+.baslik {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  margin: 0 10rem;
+  gap: 1rem;
+}
+
+.icon {
+  font-size: 5rem;
+}
+
+.baslik h1 {
+  margin-bottom: 0.6rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  margin: 2rem 10rem;
+  gap: 5rem;
+  align-items: center;
+}
+
+.yazilar {
+  font-size: 1.6rem;
+  color: white;
+  width: 90rem;
+  background-color: #ffffff20;
+  border-radius: 3rem;
+  padding: 2rem;
+  line-height: 3.3rem;
+  letter-spacing: 0.05rem;
+}
+
+.content .resim {
+  background-image: url("../image/resim.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50rem;
+  height: 30rem;
+  border-radius: 3rem;
+  border: #ffffff70 0.3rem solid;
+}
+
+.sosyal {
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+  transition: 0.2s all ease-in-out;
+}
+
+.sosyal a {
+  color: #ffffff70;
+  transition: 0.5s all ease-in-out;
+}
+
+.sosyal a .icon:hover {
+  color: white;
+}
+
+
+
+.iletisimLink{
+    padding: 1.5rem 3rem;
+    font-weight: bold;
+    color: #ffffff70;
+    border-radius: 3rem;
+    border: 0.3rem #ffffff70 solid;
+    margin-top: 3.5rem;
+    margin-bottom: auto;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.iletisimLink:hover{
+    color: white;
+    border: white 0.3rem solid;
+}

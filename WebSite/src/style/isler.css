@@ -1,0 +1,66 @@
+.baslik {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin: 0 10rem;
+    gap: 1.5rem;
+  }
+  
+  .icon {
+    font-size: 4rem;
+  }
+
+  
+  .baslik h1 {
+    margin-bottom: 1rem;
+  }
+
+  .islerContainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem auto 0 auto;
+    max-width: 150rem;
+    justify-content: center;
+    gap: 5rem;
+  }
+
+  .isleri{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff20;
+    border-radius: 3rem;
+    padding: 5rem;
+    height: 20rem;
+    width: 35rem;
+    gap: 3rem;
+    transition: 0.5s all ease-in-out;
+  }
+
+  .isleri:hover{
+    transform: scale(1.2);
+    margin: 1rem;
+  }
+
+  .isleri .baslik{
+    margin: 0 auto 0 auto;
+  }
+
+  .pdfButton{
+    color: #ffffff70;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border: #ffffff70 0.1rem solid;
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+    transition: 0.2s all ease-in-out;
+  }
+
+  .pdfButton:hover{
+    color: white;
+    border: white 0.3rem solid;
+    font-weight: bold;
+  }

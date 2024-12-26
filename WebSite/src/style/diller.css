@@ -1,0 +1,59 @@
+.baslik {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    margin: 0 10rem;
+    gap: 1.5rem;
+  }
+  
+  .icon {
+    font-size: 5rem;
+  }
+
+  
+  .baslik h1 {
+    margin-bottom: 1.5rem;
+  }
+
+  .bildiller{
+    margin: 0 10rem;
+    color: white;
+    font-size: 1.6rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bildil{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    background-color: #ffffff20;
+    border-radius: 3rem;
+    padding: 1.5rem;
+    margin: 2rem 4rem 0 4rem;
+  }
+
+  .bilLogo{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 7rem;
+    height: 7rem;
+  }
+
+  .bilLogoHtml{
+    background-image: url("../image/icons8-html.svg");
+  }
+
+  .bilLogoCss{
+    background-image: url("../image/icons8-css.svg");
+  }
+
+  .bilLogoJs{
+    background-image: url("../image/icons8-javascript.svg");
+  }
+
+  .bilLogoReact{
+    background-image: url("../image/icons8-react.svg");
+  }

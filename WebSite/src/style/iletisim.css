@@ -1,0 +1,72 @@
+.baslik {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin: 0 10rem;
+    gap: 1.5rem;
+  }
+  
+  .icon {
+    font-size: 4rem;
+  }
+
+  
+  .baslik h1 {
+    margin-bottom: 1rem;
+  }
+
+  .formContainer{
+    margin: 0 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .inputGrup input{
+    font-weight: bold;
+    font-size: 1.6rem;
+    width: 100rem;
+    margin: 0 auto 0 auto;
+    margin-bottom: 3rem;
+    height: 3rem;
+    padding: 2.5rem;
+    border-radius: 5rem;
+    background-color: transparent;
+    border: 0.3rem solid #ffffff90;
+  }
+
+  .inputGrup.mesaj input{
+    height: 20rem;
+    align-content: flex-start;
+}
+
+.gonderButton{
+    display: flex;
+    justify-content: center;
+}
+
+.gonderButton button{
+    background-color: transparent;
+    border: none;
+}
+
+.gonderButton h1{
+   background-color: white;
+    padding: 1.5rem 7rem;
+    border-radius: 4rem;
+    color: black;
+    font-size: 2rem;
+    border: 0.2rem solid white;
+    transition: 0.5s all ease-in-out;
+    cursor: pointer;
+}
+
+.gonderButton h1:hover{
+    color: white;
+    background-color: transparent;
+    border: 0.2rem solid white;
+    transform: scale(1.1);
+}
