@@ -24,8 +24,8 @@ function Hakkimda() {
         <i class="bi bi-person-fill icon"></i>
         <h1>Hakkımda</h1>
       </div>
-      <div className="content">
-        <div className="yazilar">
+      <div className="content" id="hakkimdaContent">
+        <div className="yazilar" id="yazilar">
           <p>
             Merhaba! Ben Ahmet Eren, web geliştirme dünyasına yeni adım atmış ve
             HTML, CSS, ve JavaScript gibi temel teknolojiler ile modern web

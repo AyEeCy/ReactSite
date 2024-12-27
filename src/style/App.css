@@ -19,7 +19,7 @@ header{
 }
 
 .ahsenLogo{
-  background-image: url("../image/AhsenLogo.svg");
+  background-image: url("/AhsenLogo.svg");
   width: 14.7rem;
   height: 14.5rem;
 }

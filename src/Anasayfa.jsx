@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Anasayfa() {
   return (
     <div>
-      <div>
+      <div id="container">
         <header>
           <span class="ahsenLogo"></span>
           <Link to={"/iletisim"} className="iletisimlink">

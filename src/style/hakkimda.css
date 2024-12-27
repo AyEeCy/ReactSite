@@ -50,7 +50,7 @@ header {
 }
 
 .content .resim {
-  background-image: url("../image/resim.webp");
+  background-image: url("/resim.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
