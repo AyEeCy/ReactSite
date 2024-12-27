@@ -16,7 +16,7 @@ function App() {
     <Route path="/diller" element={<Diller></Diller>}></Route>
     <Route path="/isler" element={<Isler></Isler>}></Route>
     </Routes>
-    <div className="snow"></div>
+    <div className="snow" style={{pointerEvents:"none"}}></div>
 
     </>
   );
