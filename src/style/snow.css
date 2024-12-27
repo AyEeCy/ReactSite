@@ -4,7 +4,7 @@
     left: 0;
     bottom: 0;
     right: 0;
-    background-image:radial-gradient(4px 4px at 314px 450px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 264px 429px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)),  radial-gradient(3px 3px at 80px 295px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 326px 460px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 307px 158px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 527px 391px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0));
+    background-image:radial-gradient(4px 4px at 314px 450px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)),radial-gradient(3px 3px at 80px 295px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 326px 460px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0));
     background-size: 600px 600px;
     animation: snow 3s linear infinite;
     content: "";
