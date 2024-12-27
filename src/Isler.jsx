@@ -25,8 +25,8 @@ function Isler() {
         <h1>Hakkımda</h1>
       </div>
 
-      <div className="islerContainer" id="isler">
-        <div className="isleri" >
+      <div className="islerContainer">
+        <div className="isleri" id="isler">
           <h1 className="baslik">
             Kartvizit <br /> Tasarımı
           </h1>

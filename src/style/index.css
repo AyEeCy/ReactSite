@@ -9,9 +9,7 @@ html{
 }
 
 body {
-  height: 100vh;
   transition: 0.2s all ease-in-out;
-
 }
 
 header .ahsenLogo {
@@ -79,12 +77,16 @@ header .ahsenLogo {
     width: 13rem;
     height: 13rem;
   }
-  
+  .bildil{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 @media (max-width: 700px){
   html{
-    font-size: 6px;
+    font-size: 10px;
   }
   header .ahsenLogo {
     background-image: url("/AhsenLogo.svg");
@@ -104,19 +106,19 @@ header .ahsenLogo {
 
 @media (max-width: 600px){
   html{
-    font-size: 5.8px;
+    font-size: 8px;
   }
 }
 
 @media (max-width: 550px){
   html{
-    font-size: 5.5px;
+    font-size: 6px;
   }
 }
 
 @media (max-width: 500px){
   html{
-    font-size: 5.2px;
+    font-size: 5px;
   }
 
   #yazilar{
@@ -126,6 +128,14 @@ header .ahsenLogo {
   #isler{
     max-width: 50rem;
   }
+
+  #footer{
+    gap: 8rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  
 }
 
 @media (max-width: 470px){

@@ -20,7 +20,7 @@ function Anasayfa() {
           <h5>Bir Web Tasarımcı ve Geliştiriciyim</h5>
         </main>
 
-        <footer>
+        <footer id="footer">
           {/* <Link to={'/contact'} className='link'>İletişim</Link>*/}
           <div class="anasayfaButton">
             <Link to={"/diller"} className="link">
